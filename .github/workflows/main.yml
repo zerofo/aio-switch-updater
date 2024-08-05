@@ -14,9 +14,7 @@ jobs:
 
     - name: update repo
       run: |
-        git config --global --add safe.directory /__w/aio-switch-updater/aio-switch-updater/lib/borealis
         git config --global --add safe.directory /__w/aio-switch-updater/aio-switch-updater
-        git config --global --add safe.directory /__w/aio-switch-updater/aio-switch-updater/TegraExplorer
         git submodule update --init --recursive
 
     - name: install dependencies
