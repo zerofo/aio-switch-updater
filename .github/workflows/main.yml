@@ -18,7 +18,7 @@ jobs:
         git config --global --add safe.directory $(pwd)/TegraExplorer
         git config --global --add safe.directory $(pwd)/lib/borealis
         git submodule update --init --recursive
-        sed -i "s#-Wno-missing-braces#-Wno-missing-braces -Wno-int-conversion#" TegraExplorer/Makefile
+        sed -i "s#-Wno-missing-braces#-Wno-missing-braces -Wno-int-conversion -Wno-implicit-function-declaration#" TegraExplorer/Makefile
     - name: install dependencies
       run: |
         sudo apt update -y
