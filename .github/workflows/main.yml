@@ -10,11 +10,13 @@ jobs:
     #container: hamletdufromage/devkita64_devkitarm
     container: devkitpro/devkita64
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@master
 
     - name: update repo
       run: |
-        git config --global --add safe.directory /__w/aio-switch-updater/aio-switch-updater
+        git config --global --add safe.directory $(pwd)
+        git config --global --add safe.directory $(pwd)/TegraExplorer
+        git config --global --add safe.directory $(pwd)/lib/borealis
         git submodule update --init --recursive
 
     - name: install dependencies
