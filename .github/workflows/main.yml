@@ -28,8 +28,16 @@ jobs:
       run: |
         make -C aiosu-forwarder -f Makefile
         make -j$(nproc)
-        
+        ls -la 
     - uses: actions/upload-artifact@master
       with:
         name: aio-switch-updater
         path: aio-switch-updater.nro
+    - name: Upload binaries to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.release_token }}
+        file: aio-switch-updater.nro
+        tag: ${{ github.ref }}
+        overwrite: true
+        file_glob: true
