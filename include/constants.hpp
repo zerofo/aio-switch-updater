@@ -4,9 +4,9 @@ constexpr const char ROOT_PATH[] = "/";
 constexpr const char APP_PATH[] = "/switch/aio-switch-updater/";
 constexpr const char NRO_PATH[] = "/switch/aio-switch-updater/aio-switch-updater.nro";
 constexpr const char NRO_PATH_REGEX[] = ".*(/switch/.*aio-switch-updater.nro).*";
-constexpr const char DOWNLOAD_PATH[] = "/config/aio-switch-updater/";
-constexpr const char CONFIG_PATH[] = "/config/aio-switch-updater/";
-constexpr const char CONFIG_FILE[] = "/config/aio-switch-updater/config.json";
+constexpr const char DOWNLOAD_PATH[] = "/switch/config/aio-switch-updater/";
+constexpr const char CONFIG_PATH[] = "/switch/config/aio-switch-updater/";
+constexpr const char CONFIG_FILE[] = "/switch/config/aio-switch-updater/config.json";
 constexpr const char CONFIG_PATH_UNZIP[] = "config\\aio-switch-updater";
 
 constexpr const char RCM_PAYLOAD_PATH[] = "romfs:/aio_rcm.bin";
@@ -17,23 +17,23 @@ constexpr const char CHANGELOG_URL[] = "https://github.com/HamletDuFromage/aio-s
 
 constexpr const char APP_URL[] = "https://github.com/HamletDuFromage/aio-switch-updater/releases/latest/download/aio-switch-updater.zip";
 constexpr const char TAGS_INFO[] = "https://api.github.com/repos/HamletDuFromage/aio-switch-updater/releases/latest";
-constexpr const char APP_FILENAME[] = "/config/aio-switch-updater/app.zip";
+constexpr const char APP_FILENAME[] = "/switch/config/aio-switch-updater/app.zip";
 
 constexpr const char NXLINKS_URL[] = "https://raw.githubusercontent.com/HamletDuFromage/nx-links/master/nx-links.json";
 
-constexpr const char CUSTOM_FILENAME[] = "/config/aio-switch-updater/custom.zip";
+constexpr const char CUSTOM_FILENAME[] = "/switch/config/aio-switch-updater/custom.zip";
 constexpr const char HEKATE_IPL_PATH[] = "/bootloader/hekate_ipl.ini";
 
 constexpr const char FIRMWARE_URL[] = "https://raw.githubusercontent.com/HamletDuFromage/nx-links/master/firmwares.json";
-constexpr const char FIRMWARE_FILENAME[] = "/config/aio-switch-updater/firmware.zip";
+constexpr const char FIRMWARE_FILENAME[] = "/switch/config/aio-switch-updater/firmware.zip";
 constexpr const char FIRMWARE_PATH[] = "/firmware/";
 
 constexpr const char CFW_URL[] = "https://raw.githubusercontent.com/HamletDuFromage/nx-links/master/bootloaders.json";
-constexpr const char BOOTLOADER_FILENAME[] = "/config/aio-switch-updater/bootloader.zip";
+constexpr const char BOOTLOADER_FILENAME[] = "/switch/config/aio-switch-updater/bootloader.zip";
 
 constexpr const char AMS_URL[] = "https://raw.githubusercontent.com/HamletDuFromage/nx-links/master/cfws.json";
 constexpr const char SXOS_URL[] = "https://raw.githubusercontent.com/HamletDuFromage/nx-links/master/sxos.json";
-constexpr const char AMS_FILENAME[] = "/config/aio-switch-updater/ams.zip";
+constexpr const char AMS_FILENAME[] = "/switch/config/aio-switch-updater/ams.zip";
 
 constexpr const char HEKATE_URL[] = "https://raw.githubusercontent.com/HamletDuFromage/nx-links/master/hekate.json";
 
@@ -41,9 +41,9 @@ constexpr const char PAYLOAD_URL[] = "https://raw.githubusercontent.com/HamletDu
 
 constexpr const char DEEPSEA_META_JSON[] = "https://builder.teamneptune.net/meta.json";
 constexpr const char DEEPSEA_BUILD_URL[] = "https://builder.teamneptune.net/build/";
-constexpr const char DEEPSEA_PACKAGE_PATH[] = "/config/deepsea/customPackage.json";
+constexpr const char DEEPSEA_PACKAGE_PATH[] = "/switch/config/deepsea/customPackage.json";
 
-constexpr const char CUSTOM_PACKS_PATH[] = "/config/aio-switch-updater/custom_packs.json";
+constexpr const char CUSTOM_PACKS_PATH[] = "/switch/config/aio-switch-updater/custom_packs.json";
 
 constexpr const char CHEATS_URL_TITLES[] = "https://github.com/HamletDuFromage/switch-cheats-db/releases/latest/download/titles.zip";
 constexpr const char CHEATS_URL_CONTENTS[] = "https://github.com/HamletDuFromage/switch-cheats-db/releases/latest/download/contents.zip";
@@ -58,13 +58,13 @@ constexpr const char CHEATS_DIRECTORY_GBATEMP[] = "https://raw.githubusercontent
 constexpr const char CHEATS_DIRECTORY_GFX[] = "https://raw.githubusercontent.com/HamletDuFromage/switch-cheats-db/master/cheats_gfx/";
 constexpr const char CHEATSLIPS_CHEATS_URL[] = "https://www.cheatslips.com/api/v1/cheats/";
 constexpr const char CHEATSLIPS_TOKEN_URL[] = "https://www.cheatslips.com/api/v1/token";
-constexpr const char TOKEN_PATH[] = "/config/aio-switch-updater/token.json";
-constexpr const char CHEATS_FILENAME[] = "/config/aio-switch-updater/cheats.zip";
-constexpr const char CHEATS_EXCLUDE[] = "/config/aio-switch-updater/exclude.txt";
-constexpr const char FILES_IGNORE[] = "/config/aio-switch-updater/preserve.txt";
-constexpr const char INTERNET_JSON[] = "/config/aio-switch-updater/internet.json";
-constexpr const char UPDATED_TITLES_PATH[] = "/config/aio-switch-updater/updated.dat";
-constexpr const char CHEATS_VERSION[] = "/config/aio-switch-updater/cheats_version.dat";
+constexpr const char TOKEN_PATH[] = "/switch/config/aio-switch-updater/token.json";
+constexpr const char CHEATS_FILENAME[] = "/switch/config/aio-switch-updater/cheats.zip";
+constexpr const char CHEATS_EXCLUDE[] = "/switch/config/aio-switch-updater/exclude.txt";
+constexpr const char FILES_IGNORE[] = "/switch/config/aio-switch-updater/preserve.txt";
+constexpr const char INTERNET_JSON[] = "/switch/config/aio-switch-updater/internet.json";
+constexpr const char UPDATED_TITLES_PATH[] = "/switch/config/aio-switch-updater/updated.dat";
+constexpr const char CHEATS_VERSION[] = "/switch/config/aio-switch-updater/cheats_version.dat";
 constexpr const char AMS_CONTENTS[] = "/atmosphere/contents/";
 constexpr const char REINX_CONTENTS[] = "/ReiNX/contents/";
 constexpr const char SXOS_TITLES[] = "/sxos/titles/";
@@ -92,18 +92,18 @@ constexpr const char AMS_DIRECTORY_PATH[] = "/config/aio-switch-updater/atmosphe
 constexpr const char SEPT_DIRECTORY_PATH[] = "/config/aio-switch-updater/sept/";
 constexpr const char FW_DIRECTORY_PATH[] = "/firmware/";
 
-constexpr const char HIDE_TABS_JSON[] = "/config/aio-switch-updater/hide_tabs.json";
-constexpr const char COPY_FILES_TXT[] = "/config/aio-switch-updater/copy_files.txt";
-constexpr const char LANGUAGE_JSON[] = "/config/aio-switch-updater/language.json";
-constexpr const char HOMEBREW[] = "/config/aio-switch-updater/language.json";
+constexpr const char HIDE_TABS_JSON[] = "/switch/config/aio-switch-updater/hide_tabs.json";
+constexpr const char COPY_FILES_TXT[] = "/switch/config/aio-switch-updater/copy_files.txt";
+constexpr const char LANGUAGE_JSON[] = "/switch/config/aio-switch-updater/language.json";
+constexpr const char HOMEBREW[] = "/switch/config/aio-switch-updater/language.json";
 
 constexpr const char ROMFS_PATH[] = "romfs:/";
 constexpr const char ROMFS_FORWARDER[] = "romfs:/aiosu-forwarder.nro";
-constexpr const char FORWARDER_PATH[] = "/config/aio-switch-updater/aiosu-forwarder.nro";
+constexpr const char FORWARDER_PATH[] = "/switch/config/aio-switch-updater/aiosu-forwarder.nro";
 
 constexpr const char DAYBREAK_PATH[] = "/switch/daybreak.nro";
 
-constexpr const char HIDDEN_AIO_FILE[] = "/config/aio-switch-updater/.aio-switch-updater";
+constexpr const char HIDDEN_AIO_FILE[] = "/switch/config/aio-switch-updater/.aio-switch-updater";
 
 constexpr const char LOCALISATION_FILE[] = "romfs:/i18n/{}/menus.json";
 
